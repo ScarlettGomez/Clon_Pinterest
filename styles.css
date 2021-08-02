@@ -1,0 +1,41 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    position: relative;
+    background: black;
+    height: 100%;
+    width: 100%;
+}
+.row .col-sm{
+    background: black;
+    height: 100%;
+    width: 100%;
+}
+img{
+    flex-direction: column;
+    height: 20vh;
+    margin-top: 18px;
+    width: 16vh;
+}
+.container-front{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 550px;
+    left: 10px;
+    justify-content:center;
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
